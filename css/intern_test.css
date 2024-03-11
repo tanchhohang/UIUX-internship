@@ -1,0 +1,711 @@
+html,main{
+    min-width: 100%;
+}
+
+html, body{
+    width: 100%;
+    padding:0;
+    margin: 0;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: white;
+    background-color: black;
+
+    h3{
+        font-size: 15px;
+        font-weight: 450;
+        color: rgba(255, 255, 255, 0.8);
+        margin: 0;
+    }
+
+    h1{
+        margin: 0;
+        font-size: 40px;
+        font-weight: 550;
+    }
+
+    h2{
+        font-size: 20px;
+        font-weight: 500;
+    }
+
+    p{
+        font-weight: 300;
+        font-size: 15px;
+        color: rgba(255, 255, 255, 0.9);
+    }
+}
+
+.float-up {
+    transition: transform 0.6s ease;
+    transform: translateY(50px);
+}
+
+.float-up-active {
+    transform: translateY(0);
+}
+
+@font-face {
+    font-family: 'edwardianscriptitc';
+    src: url(../fonts/edwardianscriptitc.woff);
+}
+
+@font-face {
+    font-family: 'cremiss';
+    src: url(../fonts/CREMISSS.woff);
+}
+
+
+.one{
+    height: 95vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+
+    .info{
+        display: flex;
+        flex-direction: column;
+        flex: 50%;
+        text-align: left;
+        justify-content: center;
+        margin-left: 20%;
+        
+
+        /* .title{
+            margin-left: 220px;
+        } */
+
+
+        h1{
+            padding: 0;
+            font-size: 70px;
+            margin: 0;
+        }
+
+        p{
+            font-size: 20px;
+            margin: 20px 50px 40px 0px;
+            padding: 0 80px 0 0;
+            color: rgba(200,200,200,0.9);
+        }
+
+    }
+
+    .img1{
+        margin-right: 5%;
+        flex: 50%;
+        background-position: center;
+        background-size: cover;
+        scale: 120%;
+        background-image: url(../images/exposure_glass_dribbble_v04.gif);
+    }
+}
+
+.two{
+    margin-top: 10%;
+    padding-bottom: 50px;
+    .title{
+        text-align: center;
+
+        h1{
+            font-size: 40px;
+        }
+        
+        p{
+            color: white;
+            margin: 40px 0;
+        }
+    }
+
+    .img-text-box{
+        width: 65%;
+        margin: auto;
+        text-align: center;
+        display: flex;
+        justify-content: space-around;
+        
+        .image-text{
+            margin: 15px;
+
+            .img1, .img2, .img3, .img4{
+                background-position: center;
+                background-size: cover;
+                height: 150px;
+            }
+
+            .img1{
+                background-image: url(../images/Marke_Flower_Logos_900x900-01-1.png);
+            }
+
+            .img2{
+                background-image: url(../images/Group_X-78.png);
+            }
+
+            .img3{
+                background-image: url(../images/Exposure-77.png);
+            }
+
+            .img4{
+                background-image: url(../images/Protz_Studio_SmithDiction-60.png);
+            }
+        }
+    }
+
+    .image-title{
+        width: 65%;
+        margin: auto;
+        margin-top: 180px;
+        display: flex;
+
+        .img{
+            margin: 15px;
+            flex: 50%;
+            background-image: url(../images/blogbg.png);
+            background-position: center;
+            background-size: cover;
+            height: 500px;
+        }
+
+        .title-info{
+            flex:50%;
+            margin: 75px 50px;
+
+            .link{
+                margin: 30px;
+
+                a{
+                    color: rgb(200,200,200);
+                    margin: 20px;
+                    text-decoration: none;
+                }
+
+                a:hover{
+                    color: rgb(255, 255, 255);
+                    text-decoration: underline;
+                    text-underline-offset: 2px;
+                }
+            }
+
+            .btn{
+                border: none;
+                margin-top: 20px;
+                height: 45px;
+                width: 150px;
+                background-color: rgb(255, 0, 0);
+                color: white;
+            }
+
+            .btn:hover{
+                background-color: rgb(255, 255, 255);
+                color: black;
+            }
+        }
+    }
+}
+
+.three{
+    text-align: center;
+    width: 100%;
+
+    .container{
+        width: 70%;
+        margin: auto;
+
+        .title{
+            margin: 5% 0;
+        }
+
+        .image-text-grid{   
+            display: flex;
+            flex-direction: column;
+            height: 100%;
+
+            .row-1,.row-2{
+                display: flex;
+                justify-content: center;
+            }
+
+            .image-text-box{
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                align-items: center;
+                margin: 40px;
+                width: 100%;
+                height: 300px;
+
+                .img1, .img2, .img3, .img4, .img5, .img6{
+                    background-position: center;
+                    background-size: cover;
+                    height: 100%;
+                    width: 90%;
+                    margin: 0;
+                }
+
+                .img1{
+                    background-image: url(../images/hk90s.jpg);
+                }
+
+                .img2{
+                    background-image: url(../images/hk90s1.jpg);
+                }
+
+                .img3{
+                    background-image: url(../images/hk90s2.jpg);
+                }
+
+                .img4{
+                    background-image: url(../images/107796528_2950277225095798_5238475827333677848_n.jpg);
+                }
+
+                .img5{
+                    background-image: url(../images/hk90s.jpg);
+                }
+
+                .img6{
+                    background-image: url(../images/110111368_2950274538429400_4529820173364116816_n.jpg);
+                }
+
+                .text-box{
+                    margin: 0;
+                    background-color: white;
+                    color: black;
+                    width: 100%;
+                    text-align: left;
+                    padding: 0 0 20px 20px;
+
+                    h3{
+                        color: rgba(100,100,100,0.8);
+                    }
+                }
+
+                .text-box:hover{
+                    background-color: red;
+                    color: white;
+
+                    h3{
+                        color: rgba(255, 255, 255, 0.8);
+                    }
+                }
+            }
+        }
+    }
+
+    button{
+        width: 150px;
+        height: 50px;
+        margin: auto;
+        color: white;
+        background-color: black;
+        border: 1px solid white;
+    }
+
+    button:hover{
+        background-color: white;
+        color: black;
+    }
+}
+
+.four{
+    margin: 15% 0;
+    display: flex;
+    width: 90%;
+
+    .text{
+        flex: 50%;
+        margin-left: 20%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+
+        .text-box-1{
+            border: 1px solid rgba(100,100,100,0.3);
+            margin: 50px 18% 0 0;
+            border-radius: 10px;
+            width: 85%;
+
+            .title-text{
+                border-radius: 10px;
+                height: 30px;
+                background-color: rgb(255, 0, 0);
+                padding: 10px 0 0 15px;
+                margin: 0;
+
+                h3{
+                    margin: 0;
+                    padding: 0;
+                }
+            }
+
+            p{
+                padding: 15px;
+            }
+        }
+
+        .text-box-2, .text-box-3{
+            width: 82%;
+            height: 30px;
+            border: 1px solid rgba(100,100,100,0.3);
+            margin: 10px 18% 0 0;
+            border-radius: 10px;
+            padding: 10px 0 0 15px;
+        }
+    }
+
+    .img{
+        height: auto;
+        flex: 60%;
+        background-image: url(../images/Exposure-77.png);
+        background-position: center;
+        background-size: cover;
+    }
+}
+
+.five{
+    text-align: center;
+    padding: 20px;
+    width: 75%;
+    margin: auto;
+    
+    .container{
+        margin-top: 80px;
+        color: black;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+
+        .big, .small{
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+
+            .mid{
+                position: relative;
+                padding: 20px;
+                z-index: 1
+            }
+        }
+
+            
+        .big{
+            width: 100%;
+            .one, .two, .three{
+                display: inline;
+                background-color: rgba(255, 255, 255,0.8);
+                margin: 0px;
+                height: 200px;
+                width: 350px;
+                border: none;
+                box-shadow: 1px 3px 10px rgba(100,100,100,0.3);
+
+                p{
+                    padding: 20px;
+                    font-size: 13px;
+                    color: black;
+                    margin: 0;
+                }
+                h1{
+                    font-size: 20px;
+                }
+                h3{
+                    font-size: 14px;
+                    color: rgba(100,100,100,0.9);
+                }
+            }
+
+            .mid{
+                background-color: rgb(255, 255, 255);
+                position: relative;
+                padding: 20px 60px;
+                z-index: 1
+            }
+        }
+        
+        .small {
+            .one, .two, .three{
+                z-index: 1;
+                margin: 0 20px;
+                height: 100px;
+                width: 100px;
+                position: relative;
+                bottom: 50px;
+                border-radius: 50%;
+                background-position: center;
+                background-size: cover;
+            }
+
+            .one{
+                background-image: url(../images/behanceref.png);
+            }
+
+            .two{
+                background-image: url(../images/blogbg.png);
+            }
+
+            .three{
+                background-image: url(../images/blogbg.png);
+            }
+        }
+    }
+} 
+
+
+
+
+
+.six{
+    text-align: center;
+    margin: auto;
+    margin-bottom: 80px;
+    width: 70%;
+
+    .vid-container{
+
+        display: flex;
+
+        img{
+            margin:auto;
+        }
+    }
+
+    .img-container{
+        margin: 50px 0;
+        height: 100%;
+        display: flex;
+        justify-content: space-around;
+
+        .img1, .img2, .img3, .img4{
+            background-position: center;
+            background-size: cover;
+            height: 200px;
+            width: 300px;
+        }
+
+        .img1{
+            background-image: url(../images/Exposure-77.png);
+        }
+
+        .img2{
+            background-image: url(../images/Group_X-78.png);
+        }
+
+        .img3{
+            background-image: url(../images/Marke_Flower_Logos_900x900-01-1.png);
+        }
+
+        .img4{
+            background-image: url(../images/Protz_Studio_SmithDiction-60.png);
+        }
+    }
+}
+
+.seven{
+    gap: 20px;
+    background-color: rgb(0, 0, 0);
+    display: flex;
+    width: 75%;
+    margin: auto;
+    align-items: center;
+
+    .one, .two, .three{
+        flex:33%;
+        height: 100%;
+        width: auto;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding: 0;
+        margin: 0;
+
+        .card {
+            text-align: left;
+            position: relative;
+            top: -180px;
+            width: 70%;
+            height: 70%;
+            padding: 20px;
+            border-radius: 10px;
+            background: rgba(200,200,200,0.6);    
+        }
+
+        .card:hover{
+            background-color: rgba(255, 0, 0, 0.8);
+            color: rgb(255, 255, 255);
+            p, h3{
+                color: rgb(255, 255, 255);
+            }
+        }
+    } 
+}
+
+
+
+footer{
+    width: 100%;
+    padding: 50px 0;
+    background-color: rgb(255, 255, 255);
+    display: flex;
+
+    h2{
+        color: black;
+        font-size: 20px;
+        font-weight: 400;
+    }
+
+    .LOGO{
+        flex: 35%;
+        h1{
+            color: black;
+            font-size: 40px;
+            font-weight: 700;
+            padding: 0 50px 0 150px;
+            margin-bottom: 40px;
+        }
+
+        p{
+            color: rgb(0,0,0);
+            padding: 0 100px 0 150px;
+        }
+    }
+
+    .list-1 , .list-2{
+        text-align: left;
+        flex: 15%;
+
+        ul{
+            margin-top: 50px;
+            padding: 0;
+        }
+        li{
+            padding: 0;
+            list-style: none;
+            margin: 8px;
+
+            a{
+                color: black;
+                text-decoration: none;
+            }
+        }
+    }
+
+    .submission-form{
+        flex: 35%;
+        p{
+            color: black;
+            margin-top: 50px;
+            padding-right: 200px;
+        }
+
+        input{
+            border: 1px solid rgba(100,100,100,0.3);
+            height: 35px;
+            width: 180px;
+            border-radius: 5px;
+        }
+
+        input::placeholder{
+            font-weight: 400;
+            color: rgba(40,40,4 0,0.9);
+            padding-left: 10px;
+        }
+
+        button{
+            background-color: white;
+            border-radius: 5px;
+            border: 1px solid rgba(100,100,100,0.3);
+            height: 35px;
+            width: 120px;
+        }
+
+        button:hover{
+            background-color: rgb(245,245,245)
+        };
+    }
+}
+
+@media only screen and (max-width: 1480px) {
+
+
+    .one{
+
+        .img1{
+        scale: 60%;
+        }
+
+        .info{
+            margin-left: 20%;
+            flex: 30%;
+        }
+    }
+
+    .four{
+        .img{
+            scale: 60%;
+        }
+    }
+}
+
+
+@media only screen and (max-width: 1000px) {
+    .one {
+        flex-direction: column;
+        height: auto;
+        align-items: center;
+        justify-content: center;
+
+        .info {
+            margin: 20%;
+            flex: 100%;
+
+            h1 {
+                font-size:50px;
+            }
+
+           p{
+                padding: 0;
+            }
+        }
+    
+    }        
+
+    .two{
+        .image-title{
+            width: 100%;
+            margin: auto;
+            
+            .img{
+                display: none;
+            }
+        }
+    }
+
+    .four {
+        margin:auto;
+
+        .img{
+            display: none;
+        }
+
+        .text {
+            width: 100%;
+            margin: 80px 20%;
+            padding: auto;
+        }
+    }
+
+    .six{
+        .img1, .img2, .img3, .img4{
+            height: 100px;
+            width: 100px;
+        }
+    }
+}
+
+
+@media only screen and (max-width: 700px) {
+    footer {
+        flex-direction: column; 
+        text-align: center;
+    }
+}
